@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Background Images</title>
+    <style>
+        #double-background {
+            width: 100%; /* Adjust the width as needed */
+            height: 400px; /* Adjust the height as needed */
+            background-image: url('https://source.unsplash.com/random/800x350/?coding,html'), url('https://source.unsplash.com/random/800x350/?coding,html');
+            background-size: contain, 50% 50%;
+            background-repeat: no-repeat, no-repeat;
+            background-position: top left, bottom right;
+        }
+    </style>
+</head>
+<body>
+    <div id="double-background"></div>
+</body>
+</html>
