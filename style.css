@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+.menu li {
+    display: inline-block;
+    margin-right: 20px; 
+    margin-top: 20px;
+    /* display: flex; */
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+.middle-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    padding: 20px;
+}
+.left-container{
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; 
+}
+.box1, .box2, .box3{
+    height: 10vh;
+    width: 15vh;
+    border: 1px solid #1e1c1c;
+    margin: 10px;
+}
+.box1{
+    background-image: url('https://source.unsplash.com/random/800x350/?coding,html');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right-container {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 40vh;
+    width: 40vw;
+}
+.box4, .box5, .box6{
+    height: 10vh;
+    width: 15vh;
+
+    border: 1px solid #1e1c1c;
+    margin: 10px;
+
+}
+.right-container .box4 {
+    margin-top: 0;
+    margin-left: 0;
+    background-image: url('https://source.unsplash.com/random/800x350/?coding,html');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right-container .box5 {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.right-container .box6 {
+    float: right;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+
